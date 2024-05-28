@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5NPRJF4504"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5NPRJF4504');
+</script>
+    <meta name="robots" content="noindex, nofollow"> <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Make payment</title>
+    <meta name="description" content="make payment in RS" />
+    <link rel="icon" type="img/ico" href="./assets/Get-RS-Fav.png">
+    <link
+      rel="canonical"
+      href="https://www.growrealsubscribers.com/make-payment.html"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/payment-page.css" />
+
+    <link
+      rel="preload"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      onload="this.rel='stylesheet'"
+    />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments)
+        }
+        if (!f._fbq) f._fbq = n
+        n.push = n
+        n.loaded = !0
+        n.version = '2.0'
+        n.queue = []
+        t = b.createElement(e)
+        t.async = !0
+        t.src = v
+        s = b.getElementsByTagName(e)[0]
+        s.parentNode.insertBefore(t, s)
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      )
+      fbq('init', '264216665191828')
+      fbq('track', 'PageView')
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=264216665191828&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+    <!-- Event snippet for Submit lead form conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-377343921/ZWCnCOu8p40CELGf97MB'});
+</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/6092876a185beb22b30a3eae/1f4u61ufk';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <!-- Global site tag (gtag.js) - Google Ads: 359120982 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-359120982"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-359120982');
+</script>
+  <style>
+          .StripeElement {
+        box-sizing: border-box;
+        height: 40px;
+        padding: 10px 12px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        background-color: white;
+        box-shadow: 0 1px 3px 0 #e6ebf1;
+        -webkit-transition: box-shdow 150ms ease;
+      }
+      .StripeElement--focus {
+        box-shadow: 0 1px 3px 0 #cfd7df;
+      }
+      .StripeElement--invalid {
+        border-color: #fa755a;
+      }
+      .StripeElement--webkit-autofill {
+        background-color: #fefde5 !important;
+      }
+      .btn-info {
+        background-color: #17a2b8 !important;
+        color: white !important;
+      }
+      /* toastr styles */
+      .toast {
+        opacity: 1 !important;
+      }
+      .toast-info {
+        background-color: rgba(4, 192, 176, 0.842) !important;
+      }
+      .toast-success {
+        background-color: rgba(19, 180, 67, 0.842) !important;
+      }
+      .toast-error {
+        background-color: rgba(255, 22, 5, 0.863) !important;
+      }
+  </style>
+  </head>
+
+  <body>
+    <div id="header-wrapper"></div>
+
+    <main class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 text-center">
+            <h1 class="payment-msg">
+              Do not refresh or back while making payment, it will take few
+              moments for transaction...
+            </h1>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-md-10">
+            <div class="card">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="dark-gray-bg rs-logo" style="height: 100%">
+                    <img
+                      src="./assets/logo-white.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <h2>Order Summary</h2>
+                    <hr />
+                    <ul>
+                      <li>
+                        Service Name:
+                        <span id="serviceName">Buy Youtube Subscribers</span>
+                      </li>
+                      <li>
+                        Quantity: <span id="quantity">1000 Subscribers</span>
+                      </li>
+                      <li>Total Price: <span id="amount">100$</span></li>
+                      <li>Discount: <span id="discount">-40$</span></li>
+                      <li>Total Payable Amount: <span id="total">$60</span></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="py-4 paypal-logo">
+                    <img
+                      src="./assets/make-payment/stripe.png"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="billing-address-section mx-3">
+                      <label class="d-block mt-4 font-weight-bold"
+                        >Billing Address*</label
+                      >
+                      <input
+                        type="text"
+                        placeholder="Name*"
+                        class="form-control mb-4 mt-3"
+                        id="name"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Street Address*"
+                        class="form-control mb-4"
+                        id="address"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Zip Code*"
+                        class="form-control mb-4"
+                        id="zip"
+                      />
+                      <input
+                        type="text"
+                        placeholder="City*"
+                        class="form-control mb-4"
+                        id="city"
+                      />
+                      <input
+                        type="text"
+                        placeholder="State*"
+                        class="form-control mb-4"
+                        id="state"
+                      />
+                    </div>
+                    <div class="card-section-details mx-3">
+                      <label class="font-weight-bolder">Card Details*</label>
+                      <div id="card-element" class="mt-2"></div>
+                    </div>
+                    <div class="pay-now-section d-flex justify-content-center">
+                      <button
+                        onclick="payNow()"
+                        class="btn btn-info mt-5"
+                        id="payNow"
+                        disabled="true"
+                      >
+                        Pay Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-12 mt-4">
+            <div class="payment-photo text-center">
+              <img
+                src="./assets/make-payment/master-card.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/visa-card.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/paypal-down.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/ssl.webp"
+                class="img-fluid"
+                alt=""
+              />
+              <img
+                src="./assets/make-payment/moneyback.webp"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div id="footer-wrapper"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./js/loadComponent.js"></script>
+    <script async src="./js/axios.min.js"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=AU7gMvziV6MAqN30MPxGwjkhywR3WxExH7mY_IAxvJW5CE5dSXw7fg7qc45cynTdqz3bxTug_r5G5IOg&currency=USD"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="../js/firebase-config.js"></script>
+    <script src="./js/lazysizes.min.js"></script>
+    <script src="./js/make-payment.js"></script>
+  </body>
+</html>

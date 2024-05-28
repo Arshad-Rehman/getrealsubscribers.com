@@ -1,0 +1,810 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+.navbar-light {
+  background-color: transparent !important;
+  padding: 0.8vw 1.5vw;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1.1vw;
+  margin: 0.5vw 0.5vw;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+.dropdown-menu {
+  padding: 0;
+  width: 14rem;
+}
+.dropdown .dropdown-item {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  color: #5c5c5c;
+}
+.dropdown-menu li a img {
+  width: 1.9rem;
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+
+.jumbotron {
+  background: url("../assets/home/yt-banner.webp") no-repeat;
+  height: 770px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.jumbotron .jumbotron-caption {
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+}
+.jumbotron .jumbotron-caption h1 {
+  color: white;
+  font-size: 3.5rem;
+}
+.jumbotron .jumbotron-caption h2 {
+  max-width: 83%;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  color: #5e5e5e;
+  background-color: white;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+  margin: 1rem 0rem;
+}
+.jumbotron .jumbotron-caption ul {
+  padding-inline-start: inherit;
+}
+.jumbotron .jumbotron-caption ul li {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  list-style: none;
+}
+.jumbotron .jumbotron-caption ul li::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #fff;
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+.jumbotron .home-form {
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+  background-color: #fff;
+  padding: 1.7rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.jumbotron .home-form span {
+  display: inline-block;
+  font-weight: 600;
+  color: #243238;
+  text-transform: capitalize;
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
+}
+.jumbotron .text-success {
+  padding-top: 1.4rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.jumbotron h5 {
+  font-size: 1.3rem;
+}
+.jumbotron .btn-primary {
+  background-color: #ec3a3a;
+  border-color: inherit;
+  border-radius: 100px;
+  text-transform: capitalize;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+}
+
+/* pricing plans */
+.subscribers-plans {
+  padding: 3rem 0rem;
+  background-color: #f5f5f5;
+}
+.subscribers-plans h2 {
+  color: #353b41;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.subscribers-plans .fa-youtube-play {
+  font-size: 5rem;
+  color: #eb0c0c;
+  margin-bottom: 1rem;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+.bb-none {
+  border-bottom: none !important;
+}
+.subscribers-plans .btn-danger {
+  background-color: #ec3a3a;
+  border-radius: 100px;
+  border-color: inherit;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.subscribers-plans .btn-default {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.subscribers-plans .card {
+  text-align: center;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(206, 42, 42);
+}
+.subscribers-plans .card h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #4d4b4b;
+}
+.my-red {
+  color: #ec3a3a !important;
+}
+.subscribers-plans .card ul {
+  padding-inline-start: initial;
+}
+.subscribers-plans .card ul li {
+  list-style: none;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  font-size: 1.1rem;
+  padding: 0.9rem 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.subscribers-plans .card ul li span {
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 2.3rem;
+  padding-left: 0.5rem;
+  font-weight: 700;
+}
+.subscribers-plans .card-gradient {
+  background: red;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 6, 39, 1) 0%,
+    rgba(234, 10, 60, 1) 25%,
+    rgba(228, 14, 78, 1) 50%,
+    rgba(222, 16, 98, 1) 75%,
+    rgba(217, 18, 108, 1) 100%
+  );
+  border-radius: 12px;
+  text-align: center;
+  padding: 1rem 1rem;
+  box-shadow: 1px 1px 21px 5px rgb(74 74 74 / 6%);
+}
+.subscribers-plans .card-gradient ul li {
+  color: #fff;
+}
+.subscribers-plans .card-gradient h3 {
+  color: #fff;
+}
+.subscribers-plans .card-gradient ul li span {
+  color: #fff;
+}
+.subscribers-plans .card sub {
+  font-size: 1.1rem;
+}
+.subscribers-plans .card .uae-span {
+  font-size: 1.5rem;
+  display: inline-block;
+  text-decoration: line-through !important;
+}
+.subscribers-plans .card .uae-strong {
+  font-size: 2.6rem;
+  display: inline-block;
+  margin-left: 0.4rem;
+}
+
+/* main */
+main {
+    padding: 3rem 0rem;
+}
+main h2 {
+    color: #353b41;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+main p {
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 2rem;
+
+}
+/* active subs */
+.how-to-buy {
+    padding: 2rem 0rem 2rem 0rem;
+}
+.how-to-buy h2 {
+    color: #353b41;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+.how-to-buy img {
+  box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+  margin-bottom: 1.2rem;
+}
+.how-to-buy h3 {
+    color: #5e5e5e;
+    font-size: 1.15rem;
+    text-align: center;
+}
+.how-to-buy .card {
+    text-align: center;
+    display: inherit;
+    border: none;
+    margin-bottom: 3rem;
+}
+.how-to-buy .card h3 {
+  font-size: 1.4rem;
+  color: #1d262d;
+}
+.how-to-buy .card p {
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #636363;
+    line-height: 1.7rem;
+}
+.how-to-buy .how-to-buy-text p {
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 2rem;   
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* toastr styles */
+
+.toast {
+  opacity: 1 !important;
+  }
+  .toast-info { background-color: rgba(4, 192, 176, 0.842) !important; }
+  .toast-success { background-color: rgba(19, 180, 67, 0.842) !important; }
+  .toast-error { background-color: rgba(255, 22, 5, 0.863) !important; }
+
+/* toastr styles end */
+
+
+/* get subs */
+.key-features {
+    padding: 2rem 0rem;
+}
+.key-features h2 {
+    color: #353b41;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+.key-features .card {
+    text-align: center;
+    display: inherit;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 7px;
+    min-height: 27rem;
+    box-shadow: 3px 5px 20px 0 rgb(46 61 73 / 12%);
+    padding: 2rem 0.8rem;
+}
+.key-features .card h3 {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.key-features .card p {
+    font-size: 1.03rem;
+    color: #636363;
+    font-weight: 400;
+    line-height: 1.7rem;   
+}
+
+.faq {
+  padding: 3rem 0rem;
+  text-align: center;
+}
+.faq h1 {
+  color: #353b41;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.faq p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+  max-width: 80%;
+  margin: 1rem 0rem;
+  margin: 0 auto;
+}
+.faq {
+  background-color: #fff;
+  padding: 3rem 0rem;
+}
+.faq h2 {
+  color: #353b41;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2.1rem; 
+}
+.faq button {
+  font-weight: 500;
+  padding: 1.4rem 1rem;
+  color: #444444;
+  font-size: 1.1rem;
+}
+.faq .accordion {
+  margin-bottom: 1.4rem;
+  border: none;
+  box-shadow:  8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+.faq .accordion p {
+  font-size: 1.1rem;
+  text-align: left;
+  max-width: 100%;
+  line-height: 2rem;
+}
+
+
+footer {
+  padding: 3rem 0rem;
+  background-color: #1d262d;
+}
+footer h6 {
+  text-transform: capitalize;
+  font-size: 4vmin;
+  color: rgb(230, 230, 230);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+footer ul {
+  padding-inline-start: inherit;
+  text-align: center;
+}
+footer ul li a {
+  color: #79acd3;
+  line-height: 2.4rem;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #aedbfd;
+}
+footer .footer-social-media {
+  margin-top: 2rem;
+  text-align: center;
+}
+footer .footer-social-media li {
+  display: inline-block;
+  margin: 1vmin 1vmin 1vmin 1vmin;
+  background-color: #414e5a;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  border-radius: 100px;
+}
+footer .fa {
+  color: #fff;
+}
+footer .copyright {
+  color: rgb(224, 224, 224);
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2.3vmin;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .navbar-light img {
+    width: 9rem;
+  }
+  #navbarNavDropdown {
+    background-color: #474747;
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    padding: 1rem 0rem;
+    left: 0;
+    z-index: 9999;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.3rem;
+    margin-left: 1.4rem;
+    line-height: 1.4rem;
+  }
+  .dropdown-menu {
+    padding: 0;
+    width: 100%;
+  }
+  .jumbotron {
+    background: url('../assets/home/yt-banner-480.webp') no-repeat;
+    height: 1500px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 4rem;
+    left: 1rem;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 2rem;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    max-width: 100%;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+    display: flex;
+  }
+  .jumbotron .jumbotron-caption ul li::before {
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+  }
+  .jumbotron .offset-2 {
+    margin-left: -4rem;
+  }
+  .jumbotron .home-mobile-form { /* class for mobile design */
+    position: absolute;
+    bottom: 4rem;
+  }
+  .jumbotron .home-form {
+    padding: 1rem 1rem;
+  }
+  .jumbotron .text-success {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  .jumbotron .btn-primary {
+    font-size: 1.1rem;
+    padding: 0.4rem 2rem 0.5rem 2rem;
+  }
+  .jumbotron h5 {
+    font-size: 1.4rem;
+  }
+  .jumbotron .home-form span {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .subscribers-plans .fa-youtube-play {
+    font-size: 4rem;
+  }
+  .subscribers-plans .card {
+    padding: 2rem 0rem;
+    margin-bottom: 2rem;
+  }
+  .subscribers-plans h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  .subscribers-plans .card h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .subscribers-plans .card ul li {
+    font-size: 1.6rem;
+    padding: 0.7rem 0rem;
+  }
+  .subscribers-plans .card ul li span {
+    font-size: 3rem;
+  }
+  .subscribers-plans .btn-danger {
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .subscribers-plans .btn-default {
+    padding: 0.6rem 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  main {
+    padding: 2rem 0rem;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .how-to-buy h2 {
+    font-size: 2rem;
+  }
+  .how-to-buy p {
+    font-size: 1.2rem;
+  }
+  .how-to-buy .card p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .how-to-buy .how-to-buy-text p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .key-features h2 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+  .key-features .card p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  .key-features .card {
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+  .key-features .card h3 {
+    font-size: 1.5rem;
+  }
+  .key-features .key-features-text p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .faq {
+    padding: 2rem 0rem;
+  }
+  .faq h2 {
+    font-size: 1.8rem;
+  }
+  .faq p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    max-width: 100%;
+  }
+  .faq form {
+    padding: 1rem 1rem;
+  }
+  .faq form p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  .faq .accordion p {
+    font-size: 1.3rem;
+  }
+  .faq button {
+      font-size: 1.3rem;
+      padding: 0.4rem 1rem;
+      line-height: 2rem;
+  }
+  .faq .accordion {
+      margin-bottom: 1rem;
+  }
+  footer {
+    padding: 2rem 0rem;
+  }
+  footer h6 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 1.4rem;
+    line-height: 3rem;
+  }
+  footer .copyright {
+    font-size: 1.4rem;
+  }
+  footer .footer-social-media li {
+    padding: 0.4rem 1.1rem 0.4rem 1.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .navbar-light img {
+    width: 10rem;
+  }
+  #navbarNavDropdown {
+    /* background-color: #e3313f; */
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    padding-bottom: 4rem;
+    left: 0;
+    z-index: 9999;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-left: 0rem;
+    line-height: 1rem;
+  }
+  .jumbotron {
+    background: url('../assets/index/ig-follower-banner-1200.webp') no-repeat;
+    height: 1550px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 10rem;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 2.5rem;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    max-width: 82%;
+  }
+  .jumbotron .jumbotron-caption main {
+    font-size: 3rem;
+    margin: 2rem 0rem;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 1.7rem;
+    line-height: 3rem;
+  }
+  .jumbotron .offset-2 {
+    margin-left: 56px;
+  }
+  .jumbotron .home-form {
+    width: 150%;
+    top: 6rem;
+  }
+  main {
+    padding: 5rem 0rem;
+  }
+  main h2 {
+    font-size: 5.4rem;
+  }
+  main p {
+    font-size: 2.2rem;
+    line-height: 3.3rem;
+  }
+  .how-to-buy h2 {
+    font-size: 5.4rem;
+    line-height: 8rem;
+  }
+  .how-to-buy p {
+    font-size: 4.2rem;
+  }
+  .how-to-buy .card h3 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  .how-to-buy .card p {
+    font-size: 1.9rem;
+    line-height: 3rem;
+  }
+  .how-to-buy .how-to-buy-text p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .subscribers-plans .fa-youtube-play {
+    font-size: 10rem;
+  }
+  .subscribers-plans .card {
+    padding: 5rem 0rem;
+    margin-bottom: 5rem;
+  }
+  .subscribers-plans h2 {
+    font-size: 2.4rem;
+    margin-top: 1rem;
+    line-height: 3rem;
+  }
+  .subscribers-plans .card h3 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+  .subscribers-plans .card ul li {
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+  }
+  .subscribers-plans .card ul li span {
+    font-size: 3rem;
+  }
+  .key-features h2 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .key-features .card p {
+    font-size: 1.2rem;
+    max-width: 100%;
+  }
+  .key-features .card {
+    min-height: 42rem;
+    margin-bottom: 2rem;
+    padding: 0.8rem 0.3rem;
+  }
+  .key-features .key-features-text p {
+    font-size: 4.2rem;
+    line-height: 7rem;
+  }
+  .how-to-buy h2 {
+    font-size: 2.5rem;
+    max-width: 100%;
+    line-height: 3.2rem;
+  }
+  .how-to-buy p {
+    font-size: 4.2rem;
+    line-height: 7rem;
+  }
+  .how-to-buy ul li {
+    font-size: 4.2rem;
+    line-height: 8rem;
+  }
+  .how-to-buy h3 {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+  .faq {
+    padding: 2rem 0rem;
+  }
+  .faq h2 {
+    font-size: 1.7rem;
+  }
+  .faq p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 100%;
+  }
+  .faq form {
+    padding: 1rem 1rem;
+  }
+  .faq form p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .faq button {
+      font-size: 1.2rem;
+      padding: 0.4rem 1rem;
+      line-height: 1.7rem;
+  }
+  .faq .accordion {
+      margin-bottom: 2rem;
+  }
+  footer {
+    padding: 2rem 0rem;
+  }
+  footer h6 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  footer .copyright {
+    font-size: 1.4rem;
+  }
+}

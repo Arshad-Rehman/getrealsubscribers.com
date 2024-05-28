@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Buy Youtube likes</title>
+  <meta name="description" content="Become popular with loads of likes on your YouTube videos. Buy YouTube likes that are from real people. Explore now!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="img/ico" href="./assets/Get-RS-Fav.png">
+  <link rel="canonical" href="" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  <link rel="stylesheet" href="/css/buy-youtube-likes.css">
+
+  <style>
+    /* toastr styles */
+    .toast {
+        opacity: 1 !important;
+      }
+      .toast-info {
+        background-color: rgba(4, 192, 176, 0.842) !important;
+      }
+      .toast-success {
+        background-color: rgba(19, 180, 67, 0.842) !important;
+      }
+      .toast-error {
+        background-color: rgba(255, 22, 5, 0.863) !important;
+      }
+  </style>
+</head>
+
+<body>
+
+  <div id="header-wrapper"></div>
+
+  <section class="jumbotron">
+    <div class="row">
+      <div class="col-md-6 col-lg-6">
+        <div class="jumbotron-caption">
+          <h1>Buy Youtube likes </h1>
+          <h2>Why buy likes from us (Our USPs): </h2>
+          <ul>
+            <li>Likes from active YouTube users</li>
+            <li>10,000+ youtubers trust us</li>
+            <li>Order completion guaranteed </li>
+            <li>Likes that will not drop over time</li>
+            <li>Likes start increasing within 24 hours </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3 offset-2 home-mobile-form">
+        <div class="home-form">
+          <span>increase youtube likes now</span>
+          <form id="register-form">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="" placeholder="Youtube Channel Link">
+            </div>
+            <div class="form-group mb-3">
+              <div class="col-md-12 px-0">
+                <div class="row">
+                  <div class="col-11 pr-md-2">
+                    <input type="text" class="form-control" name="youtubeVideoLinkOne" 
+                      placeholder="Youtube Video Link">
+                  </div>
+                  <div class="col-1 text-left d-flex align-items-center px-0">
+                    <a href="#videoLinksModal" data-bs-toggle="modal" role="button" class="mt-0 "><i
+                        class="fa fa-plus text-dark cursor-pointer"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="" placeholder="Email Address">
+            </div>
+            <div class="mb-3">
+              <select class="form-control" name="selectedSub" id="sub">
+                <option>100</option>
+                  <option>200</option>
+                  <option>300</option>
+                  <option>500</option>
+                  <option>700</option>
+                  <option>1000</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <select required id="country" class="form-control" onchange="populateCountryCodeByCountry()"
+                name="selectedCountry">
+                <option value="" selected disabled>Selected Country</option>
+              </select>
+            </div>
+            <div class="d-flex">
+              <div class="col-md-4 px-0">
+                <div class="form-group">
+                  <input type="text" class="form-control pr-2" placeholder="Country Code" required="required"
+                    name="countryCode" id="countryCode" disabled>
+                </div>
+              </div>
+              <div class="col-md-8 px-0 ml-1">
+                <div class="form-group">
+                  <input type="number" class="form-control" placeholder="Phone Number" required="required" name="phone">
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <a class="link text-success cursor-pointer" onclick="applyPromoCode()">Click here to get <strong>40%
+                  discount</strong></a>
+            </div>
+            <div class="mb-3">
+              <h5><strong>Total Amount: </strong><span class="ml-2">&pound;<span class="ml-3" id="price">7</span></h5>
+            </div>
+            <div class="mb-3">
+              <button type="button" class="btn btn-primary buy-sub" data-toggle="modal" onclick="addUser()">buy
+                likes now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- likes plans -->
+  <section class="container-fluid likes-plans">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 text-center">
+          <img src="./assets/buy-instagram-comments/insta-80x80.webp" class="img-fluid mb-3" alt="">
+          <h2>Most trusted Youtube services (Pricing Packages) </h2>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-4 col-lg-4">
+          <div class="card">
+            <h3>100 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;7<span>&pound;4</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 1-2 weeks</li>
+              <li class="bb-none"><a class="btn btn-danger cursor-pointer" onclick=selectPlan(100)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="card card-gradient">
+            <h3>200 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;14 <span>&pound;8</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 1-2 weeks</li>
+              <li class="bb-none"><a class="btn btn-default cursor-pointer" onclick=selectPlan(200)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="card">
+            <h3>300 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;21 <span>&pound;13</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 1-2 weeks</li>
+              <li class="bb-none"><a class="btn btn-danger cursor-pointer" onclick=selectPlan(300)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="card">
+            <h3>500 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;35 <span>&pound;21</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 2-3 weeks</li>
+              <li class="bb-none"><a class="btn btn-danger cursor-pointer" onclick=selectPlan(500)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="card">
+            <h3>700 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;49 <span>&pound;29</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 3-4 weeks</li>
+              <li class="bb-none"><a class="btn btn-danger cursor-pointer" onclick=selectPlan(700)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <div class="card">
+            <h3>1000 <br>Youtube Likes</h3>
+            <ul>
+              <li class="line-through bb-none">&pound;70 <span>&pound;42</span></li>
+              <li>Real People</li>
+              <li>No Robots</li>
+              <li>Results starts in 24-72 hours</li>
+              <li>Refill Guaranteed</li>
+              <li>SSL / Secure Methods</li>
+              <li class="bb-none">Will be delivered in 1-2 months</li>
+              <li class="bb-none"><a class="btn btn-danger cursor-pointer" onclick=selectPlan(1000)>Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- video links modal -->
+
+   <div class="modal fade" id="videoLinksModal" tabindex="-1" aria-labelledby="videoLinksModal" aria-hidden="true">
+    <div class="modal-dialog embed-responsive" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Add More Video Links (Optional)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" id="video-links-form">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6 px-1 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control pr-2" placeholder="Enter Video Link One"
+                      name="youtubeVideoLinkTwo">
+                  </div>
+                </div>
+                <div class="col-md-6 px-1 mb-3">
+                  <div class="form-group">
+                    <input type="text" class="form-control pr-2" placeholder="Enter Video Link Two"
+                      name="youtubeVideoLinkThree">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 px-1">
+                  <div class="form-group">
+                    <input type="text" class="form-control pr-2" placeholder="Enter Video Link Three"
+                      name="youtubeVideoLinkFour">
+                  </div>
+                </div>
+                <div class="col-md-6 px-1">
+                  <div class="form-group">
+                    <input type="text" class="form-control pr-2" placeholder="Enter Video Link Four"
+                      name="youtubeVideoLinkFive">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" onclick="setVideoLinks()">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container-fluid">
+    <div class="conatiner">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8">
+          <h2>Why you should buy YouTube likes </h2>
+          <p>YouTube is one of the most well-known online sites. It receives a tremendous quantity of traffic. Every day, over 720,000 hours of videos are published to YouTube (source: tubefilter), attracting hundreds of millions of viewers. There are several advantages to being successful on YouTube. However, because YouTube is a competitive platform with a lot of material, getting regular likes and views on your videos is difficult as there are over 37 million YouTube channels (source: tubics). As a result, you may require some credibility or social proof. For this reason, many folks <a href="https://www.realsubscribers.com/buy-youtube-likes.html" target="_blank">buy YouTube likes</a>.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8">
+          <h2 class="text-center my-4">What are some of the advantages of purchasing YouTube likes? </h2>
+          <h3>To boost organic interaction, buy Youtube likes legit </h3>
+          <img src="./assets/buy-youtube-likes/1-To-boost.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>The number of likes / dislikes, comments, shares, and subscribes per video are used by the YouTube algorithm to measure organic engagement on a YouTube channel. When a result, as the number of likes on a video rises, so does the video's and channel's total engagement rate. The interaction will rise naturally when you buy real YouTube likes from getrealsubscribers.com. When the YouTube algorithm recognizes that your video is a viewer favorite, it registers positively, and because they are genuine YouTube likes, they have no negative impact on your channel. You may also buy YouTube subscribers to help your channel expand even faster.</p>
+          <h3>Video ranks are boosted by genuine Youtube likes </h3>
+          <img src="./assets/buy-youtube-likes/2-Video-ranks.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>When the number of likes on your YouTube videos rises, viewers get more interested in it and respond with more organic likes and comments, increasing total engagement on your channel. When this happens, the YouTube algorithm recognizes that your viewers enjoy your material and want to see more of it. As a consequence, the YouTube algorithm helps your videos and YouTube channel rank higher in search engine results pages (SERPs). We supply you with 100% authentic and legitimate YouTube video likes that will have no negative impact on your YouTube channel.</p>
+          <h3>The number of organic Youtube likes increases the visibility of a channel </h3>
+          <img src="./assets/buy-youtube-likes/3-The-number.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>When you buy Youtube likes cheap from our safe website, your video's and overall YouTube channel's engagement rises in terms of likes and dislikes. The YouTube algorithm boosts the discoverability of your videos and channel on its platform because we increase likes on videos through 100 percent organic methods like SEO (Search Engine Optimization), blogging, distribution through social media groups, SMO (Social Media Optimization) and promoting through social media influencers. This aids your channel's ability to reach its intended audience.</p>
+          <h3>Channels with a high number of non-drop video likes are more likely to be watched </h3>
+          <img src="./assets/buy-youtube-likes/4-Channels-with.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>The number of likes / dislikes, shares, comments and subscribers acquired by a video are used by the YouTube algorithm to assess whether or not people are enjoying it. When you purchase non-drop, quick YouTube likes from our world-class service and acquire likes on YouTube videos, the YouTube algorithm recognizes that people enjoy your content and want to see more of it. The YouTube algorithm will recognize that your video is worth watching and will recommend it to more people as a result.</p>
+          <h3>Your earnings are increased </h3>
+          <img src="./assets/buy-youtube-likes/5-Your-earnings.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>When you buy Youtube likes legit for your channel, your channel's organic engagement rate rises. This informs the YouTube algorithm that your video is worth watching, and the system responds by making it more discoverable on the site by suggesting it to a growing number of people. This results in a significant increase in organic traffic to your channel, leading in increased watch time and ad clicks. As a result, your income from your YouTube channel will increase.</p>
+          <h3>The popularity of a channel is determined by the number of videos likes it receives </h3>
+          <img src="./assets/buy-youtube-likes/6-The-popularity.webp" class="img-fluid mt-3 mb-3" alt="ddd">
+          <p>When the number of permanent YouTube likes on your channel rises, other users perceive your videos and channel to be popular. As a result, people watch your videos and participate in your content. This results in more organic interaction, as well as increased discoverability, which leads to increased traffic and, ultimately, increased earnings. Furthermore, when a video has a large number of likes, it encourages other viewers to give it a good response by like it as well.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- how to buy -->
+  <section class="container-fluid how-to-buy">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-8">
+          <h2>How can you buy Instagram Likes from getrealsubscribers.com? </h2>
+          <h3 class="text-center">( Three simple steps to buy Instagram likes )</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-10 col-lg-10">
+          <div class="row">
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/home/1-Fillup-form.png" class="img-fluid" alt="ddd">
+                <h3>Complete the form </h3>
+                <p>Fill out the form on our secure website with your YouTube channel link, email address, and phone number.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/home/2-Submit-Form.png" class="img-fluid" alt="ddd">
+                <h3>Step 2: Fill out the form and pay for it </h3>
+                <p>To make a purchase and activate the service of acquiring real YouTube video likes, click the button "Get YouTube Likes."</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/home/3-Witness-Growth.png" class="img-fluid" alt="ddd">
+                <h3>Step 3: Take a seat and watch your channel's growth </h3>
+                <p>Keep an eye on your YouTube likes as they grow naturally. Now you can increase the number of people who enjoy your YouTube videos in three easy steps!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid best-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12">
+          <h2>Our Buy YouTube Video Likes service's best features </h2>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-10 col-lg-10">
+          <div class="row justify-content-center">
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/buy-youtube-likes/1-Secure-Process.png" class="img-fluid mb-2" alt="ddd">
+                <h3>Process that is 100 percent secure </h3>
+                <p>Your privacy is important to us at getrealsubscribers.com. As a result, we've built a procedure that has no flaws and is completely safe (SSL certified) and secure from beginning to end with PayPal integration. We utilize organic tactics like SEO and SMO to promote your YouTube channel among actual people who use YouTube to give non-drop YouTube likes. Your YouTube channel will not be harmed by our service.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/buy-youtube-likes/2-Customer-Support.png" class="img-fluid mb-2" alt="ddd">
+                <h3>Supportive Customer Service </h3>
+                <p>We respect our clients' time and strive to assist them with any concern or question they may have regarding our procedure. You may easily contact us by email, and we will react to your message within 24 hours. Customer satisfaction is a top concern for us, and we give each client our full attention.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/buy-youtube-likes/4-Fast-Delivery.png" class="img-fluid mb-2" alt="ddd">
+                <h3>Quick Delivery </h3>
+                <p>To keep our customers satisfied, getrealsubscribers.com believes in working effectively and executing orders as quickly as feasible. We immediately begin working on a client's YouTube channel when they enter their personal information on our secure website and activate our service plan by making a payment. In order to quickly gain actual YouTube likes, we rigorously adhere to best organic standards.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/buy-youtube-likes/3-Strict-Privacy.png" class="img-fluid mb-2" alt="ddd">
+                <h3>Privacy Policies That Are Strict </h3>
+                <p>We recognize that our clients entrust us with their personal information, and we respect that trust. getrealsubscribers.com treats your personal information, such as your name, phone number, and YouTube channel information, with the utmost care and attention. We are a very ethical organization that adheres to a rigorous privacy policy, so your information will be secure with us.</p>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4">
+              <div class="card">
+                <img src="./assets/buy-youtube-likes/5-Non-Drop.png" class="img-fluid mb-2" alt="ddd">
+                <h3>Likes that don't decrease </h3>
+                <p>Many of our clients have inquired about if these YouTube likes are permanent and would not go away with time. We want to reassure you that we supply you with YouTube likes that are both permanent and non-dropping. This is because we show your videos to individuals who are truly interested in your topic and who watch them.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  
+
+  <div id="footer-wrapper"></div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="/js/loadComponent.js"></script>
+  <script defer src="./js/buy-youtube-likes.js"></script>
+  <script defer src="./js/toastr.min.js"></script>
+  <script async src="./js/lazysizes.min.js"></script>
+  <script async src="./js/axios.min.js"></script>
+</body>
+
+</html>

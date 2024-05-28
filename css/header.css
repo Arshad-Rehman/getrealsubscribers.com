@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,700&display=swap");
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.navbar-light {
+  background-color: transparent !important;
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #353b41;
+  font-size: 1.1vw;
+  margin: 0.5vw 0.5vw;
+}
+.navbar-light img {
+  width: 11vw;
+}
+.dropdown-menu {
+  padding: 0;
+  width: 14rem;
+}
+.dropdown .dropdown-item {
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  font-weight: 600;
+  color: #5c5c5c;
+}
+.dropdown-menu li a img {
+  width: 1.9rem;
+  display: inline-block;
+  margin-right: 0.6rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar-light {
+    padding: 3vw 0vw 3vw 0vw;
+  }
+  .navbar-light img {
+    width: 38vw;
+  }
+  #navbarNavDropdown {
+    background-color: #fff;
+    position: absolute;
+    top: 17vw;
+    width: 100%;
+    padding-bottom: 4vw;
+    left: 0;
+    z-index: 9999;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 4.4vw;
+    margin-left: 4.4vw;
+    line-height: 4vw;
+  }
+  .navbar-nav .dropdown-menu {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light img {
+    width: 20vw;
+  }
+  #navbarNavDropdown {
+    background-color: none;
+    position: absolute;
+    top: 2vw;
+    width: 100%;
+    padding-bottom: 4vw;
+    left: 0;
+    z-index: 9999;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 1.8vw;
+    margin-left: 0vw;
+    line-height: 1vw;
+  }
+}  

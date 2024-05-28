@@ -1,0 +1,150 @@
+
+p {
+  font-weight:400;
+  font-size:1.1rem;
+  line-height:1.8;
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 34px;
+  color: #2c2c2c;
+}
+
+.main-banner {
+  padding: 60px 0px;
+}
+.main-banner h1 {
+  font-weight: 700;
+  color: #2c2c2c;
+}
+.main-banner p {
+  color: #515151;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.simple-steps {
+  padding: 30px 0px;
+}
+.simple-steps .para {
+  font-size: 20px;
+}
+.simple-steps .card {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  padding: 20px;
+  align-items: flex-start;
+  height: 100%;
+}
+.simple-steps .card .card-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.simple-steps .card .card-para {
+  font-size: 17px;
+}
+
+
+.content-image {
+  padding: 0px 0px 40px 0px;
+}
+.content-image .content .content-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #2c2c2c;
+}
+.content-image .content {
+  margin: 0px 0px 60px 0px;
+}
+.content-image .content .content-para {
+  font-size: 17px;
+  line-height: 28px;
+}
+.content-image .content-img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.only-content {
+  padding: 0px 0px 50px 0px;
+}
+.only-content p {
+  font-size: 17px;
+  line-height: 28px;
+}
+.only-content h3 {
+  font-weight: 600;
+}
+
+
+.main-faq {
+  padding: 0px 0px 50px 0px;
+}
+.main-faq .accordion-item {
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 4px;
+}
+.main-faq .accordion-item .accordion-header {
+  margin-bottom: 20px;
+}
+.main-faq .accordion-item .accordion-button {
+  font-weight: 600;
+  font-size: 20px;
+}
+.main-faq .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+.main-faq .accordion-item p {
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 17px;
+}
+.main-faq .accordion-item li {
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 17px;
+}
+.best-agency-block img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+.best-agency-block h3 { font-size:1.5rem; margin-bottom:1rem;}
+
+
+@media only screen and (max-width: 768px) {
+  .simple-steps .card {
+    height: 320px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .content-image .row-1 {
+    flex-direction: column-reverse;
+  }
+  .content-image .row-3 {
+    flex-direction: column-reverse;
+  }
+  .simple-steps .card {
+    height: 320px;
+    margin-bottom: 30px;
+  }
+  .only-content h3 {
+    line-height: 34px;
+  }
+  .content-image .content .content-title {
+    line-height: 34px;
+  }
+  .simple-steps .card .card-title {
+    line-height: 33px;
+  }
+  .main-faq .accordion-item .accordion-button {
+    line-height: 29px;
+  }
+}

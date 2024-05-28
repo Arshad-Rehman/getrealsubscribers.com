@@ -1,0 +1,249 @@
+.easy-nav {
+  margin-top: 3.5vw;
+}
+.easy-nav .breadcrumb {
+  background-color: #fff;
+  padding: 0;
+  margin-bottom: 2vw;
+}
+.easy-nav .breadcrumb-item {
+  font-size: 1vw;
+}
+
+.blog-content h1 {
+  font-weight: 700;
+  font-size: 36px;
+  max-width: 90%;
+  line-height: 3.4vw;
+  color: #414242;
+  background: linear-gradient(
+    180deg,
+    #fff 70%,
+    #a2daff 70%,
+    #99d6ff 88%,
+    #fff 88%
+  );
+  display: inline;
+}
+.blog-content p {
+  color: #636363;
+  font-size: 18px;
+  line-height: 30px;
+}
+.blog-content h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #4b4b4b;
+  line-height: 28px;
+}
+.blog-content h3 {
+  color: #4b4b4b;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.blog-content h4 {
+  color: #4b4b4b;
+  font-size: 20px;
+  font-weight: 600;
+}
+.blog-content ul li {
+  color: #5f5f5f;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 0.4vw;
+}
+.blog-content ol li {
+  color: #5f5f5f;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.blog-content .blog-index {
+  box-shadow: 0 10px 20px rgb(0 0 0 / 11%), 0 6px 6px rgb(0 0 0 / 1%);
+  padding: 2vw 2vw;
+  max-width: 70%;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-top: 6px solid rgb(216, 32, 32);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.blog-content .blog-index ol li {
+  margin-bottom: 0.3vw;
+  font-size: 1.1vw;
+  color: #5f5f5f;
+  font-weight: 500;
+}
+.blog-content .blog-index ol li a {
+  color: #5f5f5f;
+  text-decoration: none;
+  font-size: 1.1vw;
+  font-weight: 500;
+}
+.blog-content .side-box {
+  background-color: #fff8e6;
+}
+.blog-content .side-box p {
+  font-size: 0.9vw;
+}
+
+#id1 {
+  color: red;
+}
+
+/* blog share */
+.share-blog {
+  position: fixed;
+  display: block;
+  top: 40%;
+  left: 46.4%;
+  bottom: 0;
+  padding: 5px;
+  border: none;
+  z-index: 10000;
+}
+.share-blog p {
+  position: absolute;
+  left: 46.5%;
+  top: -9%;
+  font-weight: 600;
+}
+.share-blog ul {
+  margin: 0px;
+  padding: 10px 0px 5px 0px;
+  list-style: none;
+  padding-inline-start: initial;
+}
+.share-blog ul li {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.share-blog .fa-facebook {
+  background-color: #3b5998;
+  padding: 12px 13px;
+  color: #fff;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  font-size: 21px;
+  padding-top: 16px;
+  display: inline-block;
+}
+.share-blog .fa-linkedin {
+  background-color: #0e76a8;
+  padding: 12px 13px;
+  color: #fff;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  font-size: 21px;
+  padding-top: 14px;
+  display: inline-block;
+}
+.share-blog .fa-pinterest {
+  background: #e60023;
+  padding: 12px 13px;
+  color: #fff;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  font-size: 21px;
+  padding-top: 15px;
+  display: inline-block;
+}
+.share-blog .fa-twitter {
+  background-color: #00acee;
+  padding: 12px 13px;
+  color: #fff;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  font-size: 21px;
+  padding-top: 16px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 480px) {
+  .easy-nav {
+    margin-top: 6vw;
+  }
+  .easy-nav .breadcrumb-item {
+    font-size: 4vw;
+  }
+  .blog-content h1 {
+    font-size: 7vw;
+    line-height: 9.4vw;
+  }
+  .blog-content p {
+    font-size: 4.7vw;
+    line-height: 7.7vw;
+  }
+  .blog-content h2 {
+    font-size: 6vw;
+    line-height: 9.4vw;
+  }
+  .blog-content .blog-index {
+    max-width: 100%;
+    margin: 6vw 0vw;
+  }
+  .blog-content .blog-index ol li a {
+    font-size: 4.8vw;
+    line-height: 8vw;
+    display: inline-block;
+    margin-bottom: 2vw;
+  }
+  .blog-content h3 {
+    font-size: 6vw;
+    line-height: 9vw;
+  }
+  .blog-content ul li {
+    font-size: 4.4vw;
+    line-height: 7.7vw;
+  }
+  .blog-content h4 {
+    font-size: 5vw;
+  }
+  .share-blog {
+    left: 41.4%;
+  }
+  .share-blog p {
+    left: 45.5%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .easy-nav {
+    margin-top: 8vw;
+  }
+  .easy-nav .breadcrumb-item {
+    font-size: 3vw;
+  }
+  .blog-content h1 {
+    font-size: 3.5vw;
+    line-height: 5.6vw;
+  }
+  .blog-content p {
+    font-size: 3vw;
+    line-height: 4.7vw;
+  }
+  .blog-content h2 {
+    font-size: 3.5vw;
+    line-height: 5.4vw;
+  }
+  .blog-content .blog-index {
+    max-width: 100%;
+    margin: 6vw 0vw;
+    padding: 5vw 3vw;
+  }
+  .blog-content .blog-index ol li {
+    font-size: 2.8vw;
+    margin-bottom: 2.7vw;
+  }
+  .blog-content h3 {
+    font-size: 3.5vw;
+  }
+}

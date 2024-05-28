@@ -1,0 +1,593 @@
+.jumbotron {
+  background: url("../assets/buy-youtube-likes/yt-like-banner.webp") no-repeat;
+  height: 680px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.jumbotron .jumbotron-caption {
+  position: absolute;
+  top: 4vw;
+  left: 2vw;
+}
+.jumbotron .jumbotron-caption h1 {
+  color: white;
+  font-size: 3.3vw;
+  line-height: 4.4vw;
+}
+.jumbotron .jumbotron-caption h2 {
+  max-width: 94%;
+  padding: 1vw 1vw;
+  border-radius: 8px;
+  color: #5e5e5e;
+  background-color: white;
+  line-height: 1.8vw;
+  font-size: 1.03vw;
+  margin: 1vw 0vw;
+}
+.jumbotron .jumbotron-caption ul {
+  padding-inline-start: inherit;
+  margin-top: 1.4vw;
+}
+.jumbotron .jumbotron-caption ul li {
+  font-size: 1.2vw;
+  line-height: 2.4vw;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  list-style: none;
+}
+.jumbotron .jumbotron-caption ul li::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #fff;
+  font-weight: 400;
+  margin-right: 0.5vw;
+}
+.jumbotron .home-form {
+  position: relative;
+  left: 5vw;
+  top: 3vw;
+  background-color: #fff;
+  padding: 1.7vw 1.5vw;
+  border-radius: 8px;
+  text-align: center;
+}
+.jumbotron .home-form span {
+  display: inline-block;
+  font-weight: 600;
+  color: #243238;
+  text-transform: capitalize;
+  margin-bottom: 1.3vw;
+  font-size: 1.3vw;
+}
+.jumbotron .text-success {
+  padding-top: 1.4vw;
+  font-size: 1.2vw;
+  text-decoration: none;
+  display: inline-block;
+}
+.jumbotron h5 {
+  font-size: 1.3vw;
+}
+.jumbotron .btn-primary {
+  background: #eb0c0c;
+  border-color: inherit;
+  border-radius: 100px;
+  text-transform: capitalize;
+  padding: 0.6vw 2vw;
+  font-weight: 600;
+}
+
+/* likes plan */
+.likes-plans {
+  padding: 3vw 0vw;
+  background-color: #f5f5f5;
+}
+.likes-plans h2 {
+  color: #353b41;
+  font-size: 2.2vw;
+  font-weight: 700;
+}
+.likes-plans .fa-youtube-play {
+  font-size: 5vw;
+  color: #eb0c0c;
+  margin-bottom: 1vw;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+.bb-none {
+  border-bottom: none !important;
+}
+.likes-plans .btn-danger {
+  background: #ec3a3a;
+  border-color: inherit;
+  border-radius: 100px;
+  padding: 0.6vw 2vw;
+  font-weight: 600;
+  margin-top: 1vw;
+}
+.likes-plans .btn-default {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 0.6vw 2vw;
+  font-weight: 600;
+  margin-top: 1vw;
+}
+.likes-plans .card {
+  text-align: center;
+  padding: 1vw 1vw;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 2vw;
+  border: 1px solid rgb(206, 42, 42);
+}
+.likes-plans .card h3 {
+  font-weight: 600;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  color: #4d4b4b;
+}
+.my-red {
+  color: #ec3a3a !important;
+}
+.likes-plans .card ul {
+  padding-inline-start: initial;
+}
+.likes-plans .card ul li {
+  list-style: none;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  font-size: 1.1vw;
+  padding: 0.9vw 1vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+.likes-plans .card ul li span {
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 2.3vw;
+  padding-left: 0.5vw;
+  font-weight: 700;
+}
+.likes-plans .card-gradient {
+  background: red;
+  background: linear-gradient(
+    90deg,
+    rgba(240, 6, 39, 1) 0%,
+    rgba(234, 10, 60, 1) 25%,
+    rgba(228, 14, 78, 1) 50%,
+    rgba(222, 16, 98, 1) 75%,
+    rgba(217, 18, 108, 1) 100%
+  );
+  border-radius: 12px;
+  text-align: center;
+  padding: 1vw 1vw;
+  box-shadow: 1px 1px 21px 5px rgb(74 74 74 / 6%);
+}
+.likes-plans .card-gradient ul li {
+  color: #fff;
+}
+.likes-plans .card-gradient h3 {
+  color: #fff;
+}
+.likes-plans .card-gradient ul li span {
+  color: #fff;
+}
+
+
+/* how to buy */
+.how-to-buy {
+  padding: 2rem 0rem;
+  background-color: #eeeeee;
+}
+.how-to-buy h2 {
+  color: #353b41;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.how-to-buy .card {
+  text-align: center;
+  display: inherit;
+  background-color: #eeeeee;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 7px;
+  min-height: 17rem;
+  padding: 2rem 0.8rem;
+}
+.how-to-buy img {
+  box-shadow: 8px 10px 20px 0 rgb(46 61 73 / 15%);
+  margin-bottom: 1.2rem;
+}
+.how-to-buy .card h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.how-to-buy .card p {
+  font-size: 1.03rem;
+  color: #636363;
+  font-weight: 400;
+  line-height: 1.7rem;   
+}
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* main */
+main {
+  padding: 3rem 0rem;
+}
+main h2 {
+  color: #353b41;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+main p {
+  color: #636363;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* best features */
+.best-features {
+  padding: 3rem 0rem;
+}
+.best-features h2 {
+  color: #353b41;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.best-features .card {
+  text-align: center;
+  display: inherit;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 7px;
+  min-height: 30rem;
+  box-shadow: 3px 5px 20px 0 rgb(46 61 73 / 12%);
+  padding: 2rem 0.8rem;
+}
+.best-features .card h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.best-features .card p {
+  font-size: 1.03rem;
+  color: #636363;
+  font-weight: 400;
+  line-height: 1.7rem;   
+}
+
+.likes-faq {
+  padding: 3rem 0rem;
+  text-align: center;
+}
+.likes-faq p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+  max-width: 80%;
+  margin: 1rem 0rem;
+  margin: 0 auto;
+}
+.likes-faq {
+  background-color: #fff;
+  padding: 3rem 0rem;
+}
+.likes-faq h2 {
+  color: #353b41;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2.1rem; 
+}
+.likes-faq button {
+  font-weight: 500;
+  padding: 1.4rem 1rem;
+  color: #444444;
+  font-size: 1.1rem;
+}
+.likes-faq .accordion {
+  margin-bottom: 1.4rem;
+  border: none;
+  box-shadow:  8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+.likes-faq .accordion p {
+  font-size: 1.1rem;
+  text-align: left;
+  max-width: 100%;
+  line-height: 2rem;
+}
+
+
+/* toastr styles */
+.toast {
+  opacity: 1 !important;
+  }
+  .toast-info { background-color: rgba(4, 192, 176, 0.842) !important; }
+  .toast-success { background-color: rgba(19, 180, 67, 0.842) !important; }
+  .toast-error { background-color: rgba(255, 22, 5, 0.863) !important; }
+
+/* toastr styles end */
+
+
+
+@media only screen and (max-width: 480px) {
+  .jumbotron {
+    background: url('../assets/buy-youtube-likes/yt-like-banner-480.webp') no-repeat;
+    height: 1430px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 1rem;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+    max-width: 100%;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    line-height: 2rem;
+  }
+  .jumbotron .jumbotron-caption ul {
+    margin: 1rem 0rem;
+  }
+  .jumbotron .jumbotron-caption ul li::before {
+    margin-right: 0.5rem;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .jumbotron .home-form {
+    padding: 4rem 3rem;
+    left: 1rem;
+  }
+  .jumbotron .home-mobile-form {
+    position: absolute;
+    bottom: 2rem;
+  }
+  .jumbotron .offset-2 {
+    margin-left: 0;
+  }
+  .jumbotron .text-success {
+    font-size: 1rem;
+    margin-top: 0.6rem;
+  }
+  .jumbotron .btn-primary {
+    font-size: 1.1rem;
+    padding: 0.6rem 2rem;
+  }
+  .jumbotron h5 {
+    font-size: 1.2rem;
+  }
+  .jumbotron .home-form span {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .likes-plans .fa-youtube-play {
+    font-size: 10rem;
+  }
+  .likes-plans .card {
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+  }
+  .likes-plans {
+    padding: 3rem 0rem;
+  }
+  .likes-plans h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+  }
+  .likes-plans .card h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .likes-plans .card ul li {
+    font-size: 1.3rem;
+    padding: 0.6rem 0rem;
+  }
+  .likes-plans .card ul li span {
+    font-size: 2.4rem;
+  }
+  .likes-plans .btn-danger {
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+  }
+  .likes-plans .btn-default {
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+  }
+  .how-to-buy .card h3 {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+  }
+  .how-to-buy h2 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+  .how-to-buy .card p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .how-to-buy .card {
+    padding: 1.8rem 1rem;
+    margin-bottom: 2.4rem;
+    border: 1px solid #bbbbbb;
+  }
+  .how-to-buy .how-to-buy-text p {
+    font-size: 4.6rem;
+    line-height: 7rem;
+  }
+  .best-features h2 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+  .best-features .card p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  .best-features .card {
+    padding: 1rem 1rem;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 3rem;
+  }
+  .best-features .card h3 {
+    font-size: 1.5rem;
+  }
+  .best-features .best-features-text p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  main h2 {
+    font-size: 2rem;
+  }
+  main p {
+    font-size: 1.4rem;
+  }
+  main h3 {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+  .navbar-light img {
+    width: 20vw;
+  }
+  #navbarNavDropdown {
+    background-color: none;
+    position: absolute;
+    top: 9vw;
+    width: 100%;
+    padding-bottom: 4vw;
+    left: 0;
+    z-index: 9999;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 2vw;
+    margin-left: 2vw;
+    line-height: 1vw;
+  }
+  .jumbotron {
+    background: url('../assets/buy-youtube-likes/yt-like-banner-1024.webp') no-repeat;
+    height: 1450px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 7vw;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 4.5vw;
+    line-height: 7vw;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    font-size: 3vw;
+    max-width: 90%;
+    line-height: 4vw;
+    padding: 2vw 2vw;
+  }
+  .jumbotron .jumbotron-caption main {
+    font-size: 3vw;
+    margin: 2vw 0vw;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 3.5vw;
+    line-height: 8vw;
+  }
+  .jumbotron .offset-2 {
+    margin-left: 56px;
+  }
+  .jumbotron .home-form {
+    width: 150%;
+    top: 6vw;
+  }
+  .jumbotron .text-success {
+    font-size: 2.4vw;
+    margin-top: 4vw;
+  }
+  .jumbotron .btn-primary {
+    font-size: 3vw;
+    padding: 2.2vw 4vw;
+  }
+  .jumbotron h5 {
+    font-size: 2.4vw;
+  }
+  .jumbotron .home-form span {
+    font-size: 3vw;
+    margin-bottom: 2vw;
+  }
+  .likes-plans .fa-youtube-play {
+    font-size: 10vw;
+  }
+  .likes-plans .card {
+    padding: 5vw 0vw;
+    margin-bottom: 5vw;
+  }
+  .likes-plans h2 {
+    font-size: 4.5vw;
+    margin-top: 2vw;
+    line-height: 8vw;
+  }
+  .likes-plans .card h3 {
+    font-size: 3.5vw;
+    line-height: 4.8vw;
+  }
+  .likes-plans .card ul li {
+    font-size: 3.5vw;
+    padding: 1vw 0vw;
+  }
+  .likes-plans .card ul li span {
+    font-size: 5vw;
+  }
+  .how-to-buy h2 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .how-to-buy .card p {
+    font-size: 3.6rem;
+  }
+  .how-to-buy .card {
+    min-height: 42rem;
+    margin-bottom: 6rem;
+    padding: 4rem 3rem;
+  }
+  .how-to-buy .how-to-buy-text p {
+    font-size: 4.2rem;
+    line-height: 7rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

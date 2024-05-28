@@ -1,0 +1,102 @@
+
+.blog-banner { padding-left: 0 !important; padding-right: 0 !important; margin-top: 1.2vw; }
+
+main {
+  padding: 3vw 0vw;
+}
+main h1 {
+  color: rgb(73, 73, 73);
+  font-size: 6vmin;
+  font-weight: 700;
+}
+main .card {
+  box-shadow: 2px 3px 23px 6px rgba(46,61,73,0.11);
+  border: none;
+  margin-bottom: 5vmin;
+  min-height: 33vw;
+}
+main .card-body {
+  padding: 2vw 1.4vw;
+}
+main .card-body a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: rgb(72, 74, 77);
+  margin-bottom: 0.5vw;
+}
+main .card-body p {
+  color: #636363;
+  font-size: 1.04vw;
+  line-height: 1.8vw;
+}
+main .card-body .read-more {
+  display: inline-block;
+  color: rgb(20, 135, 230);
+  font-size: 1.1vw;
+}
+main .card-body .fa-long-arrow-right {
+  display: inline-block;
+  margin-left: 0.4vw;
+}
+
+@media only screen and (max-width: 480px) {
+  .blog-banner {
+    margin-top: 17vw;
+  }
+  main {
+    padding: 6vw 0vw;
+  }
+  main h1 {
+    font-size: 8vmin;
+  }
+  main .card-body a {
+    font-size: 4.5vw;
+  }
+  main .card-body p {
+    font-size: 4vw;
+    line-height: 6vw;
+  }
+  main .card-body .read-more {
+    font-size: 4vw;
+  }
+  main .card {
+    margin-bottom: 8vw;
+  }
+  main .card-body {
+    padding: 6vw 5vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .blog-banner {
+    margin-top: 11vw;
+  }
+  main {
+    padding: 6vw 0vw;
+  }
+  main h1 {
+    font-size: 6vmin;
+  }
+  main .card-body a {
+    font-size: 2.5vw;
+  }
+  main .card-body p {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+  main .card-body .read-more {
+    font-size: 2vw;
+  }
+  main .card {
+    margin-bottom: 8vw;
+  }
+  main .card-body {
+    padding: 3vw 2vw;
+  }
+}
+
+
+
+
+

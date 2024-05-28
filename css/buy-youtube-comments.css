@@ -1,0 +1,620 @@
+.jumbotron {
+  background: url("../assets/buy-youtube-comments/yt-comment-banner.webp") no-repeat;
+  height: 680px;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.jumbotron .jumbotron-caption {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+}
+.jumbotron .jumbotron-caption h1 {
+  color: white;
+  font-size: 3rem;
+  line-height: 4.4rem;
+}
+.jumbotron .jumbotron-caption h2 {
+  max-width: 94%;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  color: #5e5e5e;
+  background-color: white;
+  line-height: 1.8rem;
+  font-size: 1.03rem;
+  margin: 1rem 0rem;
+}
+.jumbotron .jumbotron-caption ul {
+  padding-inline-start: inherit;
+  margin-top: 1.4rem;
+}
+.jumbotron .jumbotron-caption ul li {
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  color: rgb(240, 240, 240);
+  font-weight: 400;
+  list-style: none;
+}
+.jumbotron .jumbotron-caption ul li::before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #fff;
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+.jumbotron .home-form {
+  position: relative;
+  left: 5rem;
+  top: 2rem;
+  background-color: #fff;
+  padding: 1.7rem 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.jumbotron .home-form span {
+  display: inline-block;
+  font-weight: 600;
+  color: #243238;
+  text-transform: capitalize;
+  margin-bottom: 1.3rem;
+  font-size: 1.1rem;
+}
+.jumbotron .text-success {
+  padding-top: 1.4rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+}
+.jumbotron h5 {
+  font-size: 1.3rem;
+}
+.jumbotron .btn-primary {
+  background: #eb0c0c;
+  border-color: inherit;
+  border-radius: 100px;
+  text-transform: capitalize;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+}
+
+/* comments plan */
+.comments-plans {
+  padding: 3rem 0rem;
+  background-color: #f5f5f5;
+}
+.comments-plans h2 {
+  color: #353b41;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.comments-plans .fa-youtube-play {
+  font-size: 5rem;
+  color: #eb0c0c;
+  margin-bottom: 1rem;
+}
+.line-through {
+  text-decoration: line-through !important;
+}
+.bb-none {
+  border-bottom: none !important;
+}
+.comments-plans .btn-danger {
+  background: #eb0c0c;
+  border-color: inherit;
+  border-radius: 100px;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.comments-plans .btn-default {
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 0.6rem 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.comments-plans .card {
+  text-align: center;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  border: 1px solid #eb0c0c;
+}
+.comments-plans .card h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #4d4b4b;
+}
+.my-red {
+  color: #ec3a3a !important;
+}
+.comments-plans .card ul {
+  padding-inline-start: initial;
+}
+.comments-plans .card ul li {
+  list-style: none;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  font-size: 1.1rem;
+  padding: 0.9rem 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.comments-plans .card ul li span {
+  text-decoration: none !important;
+  display: inline-block;
+  font-size: 2.3rem;
+  padding-left: 0.5rem;
+  font-weight: 700;
+}
+.comments-plans .card-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(240, 6, 39, 1) 0%,
+    rgba(234, 10, 60, 1) 25%,
+    rgba(228, 14, 78, 1) 50%,
+    rgba(222, 16, 98, 1) 75%,
+    rgba(217, 18, 108, 1) 100%
+  );
+  border-color: inherit;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1rem 1rem;
+  box-shadow: 1px 1px 21px 5px rgb(74 74 74 / 6%);
+}
+.comments-plans .card-gradient ul li {
+  color: #fff;
+}
+.comments-plans .card-gradient h3 {
+  color: #fff;
+}
+.comments-plans .card-gradient ul li span {
+  color: #fff;
+}
+
+/* how to buy */
+.first-content {
+  padding: 3rem 0rem;
+}
+.first-content h2 {
+  font-size: 2.2rem;
+  color: #353b41;
+  text-align: center;
+}
+.first-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+/* how to buy */
+.how-to-buy {
+  padding: 3rem 0rem 3rem 0rem;
+  background-color: #f1f2f1;
+}
+.how-to-buy h2 {
+  color: #444;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.how-to-buy h3 {
+  font-size: 1.3rem;
+}
+.how-to-buy .how-to-buy-grid {
+  text-align: center;
+}
+.how-to-buy .how-to-buy-grid h3 {
+  font-size: 1.4rem;
+  padding: 0.3rem 0rem;
+  color: #484848;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.how-to-buy .how-to-buy-grid p {
+  color: #636363;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.how-to-buy .how-to-buy-grid img {
+  box-shadow: 8px 10px 20px 0px rgba(46, 61, 73, 0.15);
+  margin-bottom: 0.7rem;
+}
+.how-to-buy .btn-danger {
+  background: #eb0c0c;
+  border-color: inherit;
+  border-color: inherit;
+  padding: 0.6rem 2rem 0.8rem 2rem;
+  border-radius: 100px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* toastr styles */
+
+.toast {
+  opacity: 1 !important;
+  }
+  .toast-info { background-color: rgba(4, 192, 176, 0.842) !important; }
+  .toast-success { background-color: rgba(19, 180, 67, 0.842) !important; }
+  .toast-error { background-color: rgba(255, 22, 5, 0.863) !important; }
+
+/* toastr styles end */
+
+.key-features {
+  padding: 3rem 0rem;
+}
+.key-features h2 {
+  color: #353b41;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 0.8rem;
+}
+.key-features .card {
+  text-align: center;
+  display: inherit;
+  margin-bottom: 2rem;
+  border: none;
+  border-radius: 7px;
+  min-height: 30rem;
+  box-shadow: 3px 5px 20px 0 rgb(46 61 73 / 12%);
+  padding: 2rem 0.8rem;
+}
+.key-features .card h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.key-features .card p {
+  font-size: 1.03rem;
+  color: #636363;
+  font-weight: 400;
+  line-height: 1.7rem;   
+}
+
+
+
+/* what benefits */
+.benefits-buying {
+  padding: 3rem 0rem 2rem 0rem;
+}
+.benefits-buying h2 {
+  font-size: 2.2rem;
+}
+.benefits-buying .benefits-para {
+  font-size: 1.2rem;
+  max-width: 80%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+.benefits-buying .benefits-buying-content h3 {
+  color: #474747;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+.benefits-buying .benefits-buying-content p {
+  color: #636363;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+/* faq */
+.comments-faq {
+  padding: 3rem 0rem;
+  text-align: center;
+}
+.comments-faq p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+  max-width: 80%;
+  margin: 1rem 0rem;
+  margin: 0 auto;
+}
+.comments-faq {
+  background-color: #fff;
+  padding: 3rem 0rem;
+}
+.comments-faq h2 {
+  color: #353b41;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 2.1rem; 
+}
+.comments-faq button {
+  font-weight: 500;
+  padding: 1.4rem 1rem;
+  color: #444444;
+  font-size: 1.1rem;
+}
+.comments-faq .accordion {
+  margin-bottom: 1.4rem;
+  border: none;
+  box-shadow:  8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+.comments-faq .accordion p {
+  font-size: 1.1rem;
+  text-align: left;
+  max-width: 100%;
+  line-height: 2rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+  html {
+    overflow-x: overlay;
+  }
+  .jumbotron {
+    background: url("../assets/buy-youtube-comments/yt-comment-banner-480.webp")
+      no-repeat;
+    height: 1450px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 1rem;
+    left: 1rem;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    max-width: 100%;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    font-size: 1.3rem;
+  }
+  .jumbotron .jumbotron-caption ul {
+    margin: 1rem 0rem;
+  }
+  .jumbotron .jumbotron-caption ul li::before {
+    margin-right: 0.5rem;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  .jumbotron .home-form {
+    padding: 1rem 1rem;
+    left: 1rem;
+  }
+  .jumbotron .home-mobile-form {
+    position: absolute;
+    bottom: 4rem;
+  }
+  .jumbotron .offset-2 {
+    margin-left: 0;
+  }
+  .jumbotron .text-success {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+  .jumbotron .btn-primary {
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+  }
+  .jumbotron h5 {
+    font-size: 1.4rem;
+  }
+  .jumbotron .home-form span {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .comments-plans .card {
+    padding: 1rem 0rem;
+    margin-bottom: 2rem;
+  }
+  .comments-plans h2 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+  }
+  .comments-plans .card h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .comments-plans .card ul li {
+    font-size: 1.3rem;
+    padding: 0.6rem 0rem;
+  }
+  .comments-plans .card ul li span {
+    font-size: 2.2rem;
+  }
+  .comments-plans .btn-danger {
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+  }
+  .comments-plans .btn-default {
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+  }
+  .first-content p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .first-content h2 {
+    font-size: 2rem;
+  }
+  .how-to-buy {
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  .how-to-buy h2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .how-to-buy .how-to-buy-grid h3 {
+    line-height: 2.4rem;
+    font-size: 1.7rem;
+  }
+  .how-to-buy .how-to-buy-grid p {
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+  }
+  .how-to-buy .btn-danger {
+    padding: 0.6rem 2rem 0.7rem 2rem;
+  }
+  .how-to-buy .how-to-buy-grid h3 {
+    margin-top: 4rem;
+  }
+  .key-features h2 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+  .key-features .card p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+  .key-features .card {
+    padding: 1rem 1rem;
+    border: 1px solid #bbbbbb;
+    margin-bottom: 3rem;
+  }
+  .key-features .card h3 {
+    font-size: 1.5rem;
+  }
+  .key-features .best-features-text p {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  .benefits-buying h2 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  .benefits-buying .benefits-buying-content h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 1rem 0rem;
+  }
+  .benefits-buying .benefits-para {
+    line-height: 2rem;
+    max-width: 100%;
+  }
+  .benefits-buying .benefits-buying-content p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .benefits-buying h3 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .benefits-buying p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+  .jumbotron {
+    background: url("../assets/buy-instagram-comments/insta-comments-banner-1024.webp")
+      no-repeat;
+    height: 1400px;
+  }
+  .jumbotron .jumbotron-caption {
+    top: 2rem;
+    left: 1rem;
+  }
+  .jumbotron .jumbotron-caption h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+  }
+  .jumbotron .jumbotron-caption h2 {
+    font-size: 1.8rem;
+    max-width: 60%;
+  }
+  .jumbotron .jumbotron-caption ul li {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+  }
+  .jumbotron .offset-2 {
+    margin-left: 0;
+  }
+  .jumbotron .home-form {
+    width: 150%;
+    top: 2rem;
+  }
+  .jumbotron .text-success {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .jumbotron .btn-primary {
+    font-size: 1.2rem;
+    padding: 0.4rem 2rem;
+  }
+  .jumbotron h5 {
+    font-size: 1.4rem;
+  }
+  .jumbotron .home-form span {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .comments-plans .fa-youtube-play {
+    font-size: 10rem;
+  }
+  .comments-plans .card {
+    padding: 5rem 0rem;
+    margin-bottom: 5rem;
+  }
+  .comments-plans h2 {
+    font-size: 4.5rem;
+    margin-top: 2rem;
+    line-height: 8rem;
+  }
+  .comments-plans .card h3 {
+    font-size: 3.5rem;
+    line-height: 4.8rem;
+  }
+  .comments-plans .card ul li {
+    font-size: 3.5rem;
+    padding: 1rem 0rem;
+  }
+  .comments-plans .card ul li span {
+    font-size: 5rem;
+  }
+  .how-to-buy h2 {
+    font-size: 3.8rem;
+    margin-bottom: 3rem;
+    line-height: 6rem;
+  }
+  .how-to-buy .how-to-buy-grid h3 {
+    padding: 1rem 0rem;
+    line-height: 3.3rem;
+    font-size: 2.2rem;
+  }
+  .how-to-buy .how-to-buy-grid p {
+    font-size: 2rem;
+  }
+  .how-to-buy .btn-danger {
+    padding: 1.1rem 4rem 1.3rem 4rem;
+  }
+  .benefits-buying h2 {
+    font-size: 5rem;
+  }
+  .benefits-buying .benefits-buying-content h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .benefits-buying .benefits-buying-content p {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .benefits-buying h3 {
+    font-size: 5.5rem;
+    line-height: 8rem;
+  }
+  .benefits-buying p {
+    font-size: 4.4rem;
+    line-height: 7rem;
+  }
+}

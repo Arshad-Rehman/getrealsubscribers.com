@@ -1,0 +1,114 @@
+main {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  .faq {
+    padding: 3vw 0vw;
+    text-align: center;
+  }
+  .faq h1 {
+    color: #353b41;
+    font-weight: 700;
+    font-size: 2.5vw;
+  }
+  .faq p {
+    font-size: 1.2vw;
+    font-weight: 300;
+    line-height: 2vw;
+    max-width: 80%;
+    margin: 1vw 0vw;
+    margin: 0 auto;
+  }
+  .faq {
+    background-color: #fff;
+    padding: 3vw 0vw;
+  }
+  .faq h2 {
+    color: #353b41;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1vw;
+    font-size: 2.1vw; 
+  }
+  .faq button {
+    font-weight: 500;
+    padding: 1.4vw 1vw;
+    color: #444444;
+    font-size: 1.1vw;
+  }
+  .faq .accordion {
+    margin-bottom: 1.4vw;
+    border: none;
+    box-shadow:  8px 10px 20px 0px rgba(46,61,73,0.15);
+  }
+  .faq .accordion p {
+    font-size: 1.1vw;
+    text-align: left;
+    max-width: 100%;
+    line-height: 2vw;
+  }
+
+  
+  @media only screen and (max-width: 480px) {
+    html,
+    body {
+      overflow-x: hidden !important;
+    }
+    .faq {
+      padding: 7vw 0vw;
+    }
+    .faq h1 {
+      font-size: 6vw;
+    }
+    .faq p {
+      font-size: 4.4vw;
+      line-height: 7vw;
+      max-width: 100%;
+    }
+    .faq form {
+      padding: 6vw 3vw;
+    }
+    .faq form p {
+      font-size: 5vw;
+      margin-bottom: 4vw;
+    }
+    .faq button {
+        font-size: 4.2vw;
+        padding: 3.4vw 4vw;
+        line-height: 7vw;
+    }
+    .faq .accordion {
+        margin-bottom: 4vw;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .faq {
+        padding: 7vw 0vw;
+      }
+      .faq h1 {
+        font-size: 6vw;
+      }
+      .faq p {
+        font-size: 4.4vw;
+        line-height: 7vw;
+        max-width: 100%;
+      }
+      .faq form {
+        padding: 6vw 3vw;
+      }
+      .faq form p {
+        font-size: 5vw;
+        margin-bottom: 4vw;
+      }
+      .faq button {
+          font-size: 4.2vw;
+          padding: 3.4vw 4vw;
+          line-height: 7vw;
+      }
+      .faq .accordion {
+          margin-bottom: 4vw;
+      }
+  }
+  

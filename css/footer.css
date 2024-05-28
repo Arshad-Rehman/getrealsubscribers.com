@@ -1,0 +1,98 @@
+footer {
+  padding: 3vw 0vw;
+  background-color: #1d262d;
+}
+footer h6 {
+  text-transform: capitalize;
+  font-size: 4vmin;
+  color: rgb(230, 230, 230);
+  font-weight: 600;
+  margin-bottom: 1vw;
+  text-align: center;
+}
+footer p {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: center;
+}
+footer ul {
+  padding-inline-start: inherit;
+  text-align: center;
+}
+footer ul li a {
+  color: #79acd3;
+  line-height: 2.4vw;
+  font-size: 1.1vw;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+footer ul li a:hover {
+  color: #aedbfd;
+}
+footer .footer-social-media {
+  margin-top: 2vw;
+  text-align: center;
+}
+footer .footer-social-media li {
+  display: inline-block;
+  margin: 1vmin 1vmin 1vmin 1vmin;
+  background-color: #414e5a;
+  padding: 0.4vw 1.2vw 0.4vw 1.2vw;
+  border-radius: 100px;
+}
+footer .fa {
+  color: #fff;
+}
+footer .copyright {
+  color: rgb(224, 224, 224);
+  text-align: center;
+  margin-top: 3vw;
+  font-size: 2.3vmin;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    padding: 8vw 0vw;
+  }
+  footer h6 {
+    text-align: center;
+    font-size: 6vw;
+    margin-bottom: 3vw;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 4.4vw;
+    line-height: 8vw;
+  }
+  footer .copyright {
+    font-size: 4.4vw;
+  }
+  footer .footer-social-media li {
+    padding: 1.4vw 3.1vw 1.4vw 3.1vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    padding: 5vw 0vw;
+  }
+  footer h6 {
+    text-align: center;
+    font-size: 3.2vw;
+    margin-bottom: 3vw;
+  }
+  footer ul {
+    text-align: center;
+  }
+  footer ul li a {
+    font-size: 2.4vw;
+    line-height: 4vw;
+  }
+  footer .copyright {
+    font-size: 4.4vw;
+  }
+}
